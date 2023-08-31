@@ -8,6 +8,17 @@ The file tree is as follows:
 - The 'end-node' folder contains files related to the implementation at the end-node side. Currently, it only contains a main.cpp file that holds the entire implementation
 - The 'network-server' folder contains the file lorawan_ns.c which is the server-side implementation, along with a Makefile for compiling a linking to the appropriate libraries.
 - The 'output-plot' folder is for files related to visualizing the results of the experimentation. The main goal of all this being to evaluate a synchronization algorithm, the network server produces at runtime, a log file that contains information about frame arrival time and their position in the ongoing time-slot, in a csv-format. A typical example of such file is the 'slot_violation_new.txt' file, obtained after a run of more that 2h (8000 s). A header 'time,pos' has been added at the beginning to make it easily usable with libraries like 'pandas'. The 'plot_slot_violation.py' file is just a script that reads the specified file a output a 2D plot.
+- This readme.md file.
+
+>
+> >
+> > >
+> > > >
+> > > > >
+> > > > > >
+> > > > > > >
+> > > > > > > >
+> > > > > > > >
 
    
  
