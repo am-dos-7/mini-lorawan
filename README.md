@@ -19,3 +19,4 @@ For the sake of simplicity, no Over-The-Air-Activation process (OTAA) is handle 
 
 Security mechanisms like payload encryption and Message Integrity Code are implemented, but there is no filter based on __FCnt__ (Frame count) field at the server side. This is because we used only one gateway in our experiment and more because we do not worry about threats like replay attacks, as it out of the scope of the current work.
 
+The rest of the code is related to synchronization stuffs.
